@@ -6,17 +6,10 @@ This script makes an ACI call to IDOL to get categories details.
 
 The following is a an xml output of the script. 
 
-Status = 200
-Content Type = text/xml
-Encoding = ISO-8859-1
-------------------------------------
-<?xml version="1.0" ?>
 <autnresponse xmlns:ns0="http://schemas.autonomy.com/aci/">
   <action>CATEGORYGETHIERDETAILS</action>
   <response>SUCCESS</response>
   <responsedata>
-    
-
     <ns0:category>
       <ns0:numchildren>1</ns0:numchildren>
       <ns0:id>1</ns0:id>
@@ -40,4 +33,3 @@ Encoding = ISO-8859-1
   </responsedata>
 </autnresponse>
 
-[Finished in 0.4s]
