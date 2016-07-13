@@ -5,7 +5,7 @@ Python scripts to do various things with IDOL
 This script makes an ACI call to IDOL to get categories details.
 
 The following is a an xml output of the script. 
-
+'''xml
 <autnresponse xmlns:ns0="http://schemas.autonomy.com/aci/">
   <action>CATEGORYGETHIERDETAILS</action>
   <response>SUCCESS</response>
@@ -32,4 +32,4 @@ The following is a an xml output of the script.
     </ns0:category>
   </responsedata>
 </autnresponse>
-
+'''
